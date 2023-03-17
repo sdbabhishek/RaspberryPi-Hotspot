@@ -3,8 +3,8 @@ Script to automate and setup Access Point and WiFi Client/Station network on the
 
 How to Install
 
-git clone 
-cd rpihotspot
+git clone https://github.com/sdbabhishek/RaspberryPi-Hotspot.git
+cd RaspberryPi-Hotspot
 Chmod +x rpihotspot.sh
 sudo ./setup-network.sh --install-upgrade --ap-ssid="RPIServer" --ap-password="abhishek" --ap-password-encrypt
 
